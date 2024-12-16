@@ -29,28 +29,19 @@
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ig" />
-
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Telefono, usuario o correo electrónico"
         android:inputType="textEmailAddress"
+        android:textColorLink="#9C27B0"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -60,6 +51,7 @@
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:textColorLink="#9C27B0"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
@@ -125,5 +117,15 @@
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logotipo_instagram_628407_1909" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
